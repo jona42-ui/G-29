@@ -1,0 +1,45 @@
+body{
+    background-image: url(nuserylogin.jpeg);
+    font-family: Arial;
+    padding-left: 3pt;
+    background-color:grey;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    }
+    
+    h1{
+    text-align: center;
+    }
+    .container {
+        background-color: thistle;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 500px;
+        margin: 10vh auto;
+        background: transparent;
+        box-shadow: 0 0 15px rgb(255, 255, 255);
+        border-radius: 25px;
+    }
+       /* section{
+          padding-top: 3px;
+          padding-left: 3px;
+          padding-bottom: 3px;
+          width: 420px;
+          background-color: WhiteSmoke;
+          }
+    */
+    div{
+     background-color:white;
+     margin-top:auto;
+     margin-bottom:5px;
+     padding:10px;
+    }
+    
+    p{
+    text-align: center;
+    }
