@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>create assignment</title>
+
+    <script src="createAssignment.js"></script>
+</head>
+
+<body>
+    <h2>WELCOME TEACHER!</h2>
+    <div>
+        <p style="float:right">
+            <a href="#">home|</a>
+            <a href="#">register pupil|</a>
+            <a href="#">create assignment|</a>
+            <a href="#">generate reports</a>
+        </p>
+    </div>
+    <div>
+        <form action="POST">
+            <label>enter assignmentId:<input type="text" id="assignment"></label><br>
+            <label>select start date:<input type="datetime-local" id="start"></label><br>
+
+            <label>select submission date:<input type="datetime-local" id="submission"></label><br>
+
+            <label>enter the characters:<input type="text" id="characters" autocapitalize="words"></label><br>
+
+            <label>duration:<input type="text" id="duration"></label>
+            <button id="duration" onclick="timeSession()">calculate</button>
+
+        </form>
+    </div>
+
+    <input type="submit" value="CREATE">
+
+</body>
+
+</html>
