@@ -2,7 +2,7 @@
     // Config file for handling DB access
     $server = "localhost";
     $user = "root";
-    $password = "victoria123@jona";
+    $password = "";
     $dbname = "characterdraw";
 
     $conn =  mysqli_connect($server, $user, $password, $dbname);
